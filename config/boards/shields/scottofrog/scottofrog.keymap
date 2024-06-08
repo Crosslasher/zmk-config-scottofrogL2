@@ -544,10 +544,10 @@
 
         symbol_layer {
             bindings = <
-                          &kp QUESTION      &kp AMPERSAND   &kp ASTERISK         &kp COLON        &kp SEMICOLON
-                          &kp SLASH         &kp EXCLAMATION &kp MINUS            &kp AT           &kp UNDERSCORE
-                          &kp DOUBLE_QUOTES &kp LESS_THAN   &kp LEFT_PARENTHESIS &kp LEFT_BRACKET &kp LEFT_BRACE 
-                &kp SPACE &to NUMBER                        &to DEFAULT                           &trans         &trans
+                          &kp SEMICOLON     &kp COLON        &kp ASTERISK         &kp AMPERSAND    &kp QUESTION
+                          &kp UNDERSCORE    &kp AT           &kp MINUS            &kp EXCLAMATION  &kp SLASH
+                          &kp LEFT_BRACE    &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN    &kp DOUBLE_QUOTES 
+                &trans    &trans                             &to DEFAULT                           &to NUMBER         &kp SPACE
             >;
         }; 
         
