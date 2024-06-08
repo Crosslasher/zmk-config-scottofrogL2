@@ -346,105 +346,105 @@
 
         orange_home_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 1>;
+            key-positions = <19 1>;
             bindings = <&kp HOME>;
             layers = <DEFAULT>;
         };
 
         orange_end_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 2>;
+            key-positions = <19 2>;
             bindings = <&kp END>;
             layers = <DEFAULT>;
         };
 
         orange_pause_break_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 3>;
+            key-positions = <19 3>;
             bindings = <&kp PAUSE_BREAK>;
             layers = <DEFAULT>;
         };
 
         orange_page_up_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 4>;
+            key-positions = <19 4>;
             bindings = <&kp PAGE_UP>;
             layers = <DEFAULT>;
         };
 
         orange_insert_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 5>;
+            key-positions = <19 5>;
             bindings = <&kp INSERT>;
             layers = <DEFAULT>;
         };
 
         orange_lctrl_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 6>;
+            key-positions = <19 6>;
             bindings = <&kt LCTRL>;
             layers = <DEFAULT>;
         };
 
         orange_lalt_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 7>;
+            key-positions = <19 7>;
             bindings = <&kt LALT>;
             layers = <DEFAULT>;
         };
 
         orange_up_arrow_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 8>;
+            key-positions = <19 8>;
             bindings = <&kp UP_ARROW>;
             layers = <DEFAULT>;
         };
 
         orange_page_down_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 9>;
+            key-positions = <19 9>;
             bindings = <&kp PAGE_DOWN>;
             layers = <DEFAULT>;
         };
 
         orange_delete_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 10>;
+            key-positions = <19 10>;
             bindings = <&kp DELETE>;
             layers = <DEFAULT>;
         };
 
         orange_backspace_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 11>;
+            key-positions = <19 11>;
             bindings = <&kp BACKSPACE>;
             layers = <DEFAULT>;
         };
 
         orange_left_arrow_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 12>;
+            key-positions = <19 12>;
             bindings = <&kp LEFT_ARROW>;
             layers = <DEFAULT>;
         };
 
         orange_down_arrow_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 13>;
+            key-positions = <19 13>;
             bindings = <&kp DOWN_ARROW>;
             layers = <DEFAULT>;
         };
 
         orange_right_arrow_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 14>;
+            key-positions = <19 14>;
             bindings = <&kp RIGHT_ARROW>;
             layers = <DEFAULT>;
         };
 
         orange_caps_lock_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 19>;
+            key-positions = <19 19>;
             bindings = <&kp CAPSLOCK>;
             layers = <DEFAULT>;
         };
@@ -452,70 +452,70 @@
         // Special combos
         special_scroll_lock_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 1>;
+            key-positions = <18 1>;
             bindings = <&kp SCROLLLOCK>;
             layers = <SYMBOL>;
         };
 
         special_print_screen_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 2>;
+            key-positions = <18 2>;
             bindings = <&kp PRINTSCREEN>;
             layers = <SYMBOL>;
         };
 
         special_num_lock_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 4>;
+            key-positions = <18 4>;
             bindings = <&kt LOCKING_NUM>;
             layers = <SYMBOL>;
         }; 
 
         special_left_arrow_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 5>;
+            key-positions = <18 5>;
             bindings = <&kp LEFT_ARROW>;
             layers = <SYMBOL>;
         }; 
 
         special_left_control_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 6>;
+            key-positions = <18 6>;
             bindings = <&kt LCTRL>;
             layers = <SYMBOL>;
         };  
 
         special_left_alt_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 7>;
+            key-positions = <18 7>;
             bindings = <&kt LALT>;
             layers = <SYMBOL>;
         }; 
 
         special_right_arrow_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 9>;
+            key-positions = <18 9>;
             bindings = <&kp RIGHT_ARROW>;
             layers = <SYMBOL>;
         };  
 
         special_windows_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 10>;
+            key-positions = <18 10>;
             bindings = <&kt LGUI>;
             layers = <SYMBOL>;
         };  
 
         special_application_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 11>;
+            key-positions = <18 11>;
             bindings = <&kt K_APP>;
             layers = <SYMBOL>;
         };       
 
         special_shift_lock_combo {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <15 19>;
+            key-positions = <18 19>;
             bindings = <&kt RSHIFT>;
             layers = <DEFAULT>;
         };          
