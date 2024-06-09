@@ -565,7 +565,7 @@
                       &kp ESC    &kp Q &kp W        &kp E      &kp R 
                       &kp RSHIFT &kp A &kp S        &kp D      &kp F 
                       &kp RCTRL  &none &none        &none      &none 
-                &none &none            &to DEFAULT             &to NUMBER &kp SPACE
+                &none &to NUMBER       &to DEFAULT             &sl NUMBER &kp SPACE
             >;
         };
     };
