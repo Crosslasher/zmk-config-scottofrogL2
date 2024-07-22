@@ -582,14 +582,14 @@
             key-positions = <18 3>;
             bindings = <&kp N9>;
             layers = <GAME>;
-       };  
+        };  
 
         TAB {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <18 5>;
             bindings = <&kp TAB>;
             layers = <GAME>;
-      };  
+        };  
 
         M {
             timeout-ms = <COMBO_TIMEOUT>;
