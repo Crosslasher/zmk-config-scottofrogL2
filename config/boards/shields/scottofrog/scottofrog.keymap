@@ -582,6 +582,20 @@
             key-positions = <18 3>;
             bindings = <&kp N9>;
             layers = <GAME>;
+       };  
+
+        TAB {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 5>;
+            bindings = <&kp TAB>;
+            layers = <GAME>;
+      };  
+
+        M {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 0>;
+            bindings = <&kp M>;
+            layers = <GAME>;
         };          
     };
  
@@ -629,7 +643,7 @@
                       &kp ESC    &kp Q  &kp W         &kp E       &kp R 
                       &kp LSHIFT &kp A  &kp S         &kp D       &kp F 
                       &kp LCTRL  &kp Z  &kp X         &kp C       &kp V 
-                &none &none             &to DEFAULT               &none  &kp SPACE
+          &to DEFAULT &none             &none                     &none  &kp SPACE
             >;
         };
     };
