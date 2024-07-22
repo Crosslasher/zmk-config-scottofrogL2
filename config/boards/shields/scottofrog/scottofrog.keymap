@@ -597,6 +597,27 @@
             bindings = <&kp M>;
             layers = <GAME>;
         };          
+
+        T {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 4>;
+            bindings = <&kp T>;
+            layers = <GAME>;
+        };          
+
+        G {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 9>;
+            bindings = <&kp G>;
+            layers = <GAME>;
+        };          
+
+        B {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 14>;
+            bindings = <&kp B>;
+            layers = <GAME>;
+        };          
     };
  
     keymap {
