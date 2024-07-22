@@ -664,7 +664,7 @@
                       &kp ESC    &kp Q  &kp W         &kp E       &kp R 
                       &kp LSHIFT &kp A  &kp S         &kp D       &kp F 
                       &kp LCTRL  &kp Z  &kp X         &kp C       &kp V 
-          &to DEFAULT &none             &none                     &none  &kp SPACE
+                &none &none             &to DEFAULT               &none  &kp SPACE
             >;
         };
     };
